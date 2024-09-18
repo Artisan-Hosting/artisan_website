@@ -10,6 +10,8 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Cal from './pages/Schedule';
+
 // import DemoProduct from './pages/DemoProduct';
 
 import {useDocTitle} from './components/CustomHook';
@@ -39,6 +41,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/schedule" element={<Cal />} />
             {/* <Route path="/get-demo" element={<DemoProduct />} />  */}
           </Routes>
         </ScrollToTop>
