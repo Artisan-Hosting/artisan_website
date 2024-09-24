@@ -44,15 +44,8 @@ const Contact = () => {
       `,
         };
 
-        // Create an instance of Axios with a custom HTTPS agent
-        const axiosInstance = axios.create({
-            httpsAgent: new https.Agent({
-                rejectUnauthorized: false, // Ignore self-signed certificate errors
-            }),
-        });
-
         // Send POST request to the new API endpoint
-        axiosInstance
+        axios
             .post('https://relay.ramfield.net:8000/api/sendmail', data, {
                 headers: {
                     'Content-Type': 'application/json',
