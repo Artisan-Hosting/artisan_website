@@ -11,6 +11,7 @@ import {
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Cal from './pages/Schedule';
+import Process from './pages/Process';
 
 // import DemoProduct from './pages/DemoProduct';
 
@@ -41,6 +42,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/process" element={<Process />} />
             <Route path="/schedule" element={<Cal />} />
             {/* <Route path="/get-demo" element={<DemoProduct />} />  */}
           </Routes>
