@@ -46,7 +46,7 @@ const Contact = () => {
 
         // Send POST request to the new API endpoint
         axios
-            .post('/api/sendmail', data, {
+            .post('https://relay.artisanhosting.net:8000/api/sendmail', data, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
