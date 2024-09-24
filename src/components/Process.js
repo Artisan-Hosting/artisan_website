@@ -82,8 +82,8 @@ const HostingProcess = () => {
 
                 {/* Call to Action */}
                 <div className="text-center mt-12">
-                    <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center px-6 py-3 text-lg shadow-xl rounded-2xl">
-                        Get Started
+                    <Link to="/schedule" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center px-6 py-3 text-lg shadow-xl rounded-2xl">
+                        Are you ready to get started ?
                         <svg className="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                             <path fillRule="evenodd" d="M12.293 3.293a1 1 0 011.414 0L19 8.586a1 1 0 010 1.414l-5.293 5.293a1 1 0 01-1.414-1.414L15.586 10H4a1 1 0 110-2h11.586L12.293 4.707a1 1 0 010-1.414z" clipRule="evenodd" />
                         </svg>
