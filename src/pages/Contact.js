@@ -46,7 +46,7 @@ const Contact = () => {
 
         // Send POST request to the new API endpoint
         axios
-            .post('https://relay.ramfield.net:8000/api/sendmail', data, {
+            .post('/api/sendmail', data, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
