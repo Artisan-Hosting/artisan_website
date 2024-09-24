@@ -12,9 +12,9 @@ const NavBar = () => {
 
 
     useEffect(() => {
-      const scrollHandler = () => {
-        window.pageYOffset > 10 ? setTop(false) : setTop(true)
-      };
+        const scrollHandler = () => {
+            setTop(window.scrollY <= 10);
+          };
       window.addEventListener('scroll', scrollHandler);
       return () => window.removeEventListener('scroll', scrollHandler);
     }, [top]);
