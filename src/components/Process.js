@@ -8,7 +8,7 @@ import imgComputer from '../images/web.svg'
 
 const HostingProcess = () => {
     return (
-        <div className="bg-gray-100 py-12">
+        <div className="bg-gray-100 py-12 lg:mt-4">
             <section data-aos="fade-up">
                 {/* Introduction */}
                 <div className="my-4 py-4">

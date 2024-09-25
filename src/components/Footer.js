@@ -42,23 +42,21 @@ const Footer = () => {
 
                         {/* 3rd block */}
                         <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
-                            <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
+                            <h6 className="text-[#013289] text-xl font-bold mb-4">Get Involved</h6>
                             <ul className="text-md">
                                 <li className="mb-2">
-                                    <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Domain and Hosting</Link>
+                                    <Link to="#" className="text-[#013289] hover:text-gray-900">Opensource Things</Link>
                                 </li>
-                                {/* <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Web Development</Link>
-                        </li>
-                        <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Mobile App Development</Link>
-                        </li>
-
-                        <li className="mb-2">
-                            <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
-                        </li> */}
+                                <li className="mb-2">
+                                    <Link to="#" className="text-[#013289] hover:text-gray-900">Work with us!</Link>
+                                </li>
+                                <li className="mb-2">
+                                    <Link to="#" className="text-[#013289] hover:text-gray-900">Patch Notes</Link>
+                                </li>
                             </ul>
                         </div>
+
+
 
                         {/* 4th block */}
                         <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
