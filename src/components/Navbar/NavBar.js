@@ -12,9 +12,9 @@ const NavBar = () => {
 
 
     useEffect(() => {
-      const scrollHandler = () => {
-        window.pageYOffset > 10 ? setTop(false) : setTop(true)
-      };
+        const scrollHandler = () => {
+            setTop(window.scrollY <= 10);
+          };
       window.addEventListener('scroll', scrollHandler);
       return () => window.removeEventListener('scroll', scrollHandler);
     }, [top]);
@@ -23,7 +23,7 @@ const NavBar = () => {
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
             <div className="flex flex-row justify-between items-center py-2">
                 <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
-                    <HashLink smooth to="/#hero"><h1 className="font-extrabold text-4xl text-blue-900">Artisan Hosting</h1></HashLink>
+                    <HashLink smooth to="/#hero"><h1 className="font-extrabold text-4xl text-blue-900">Artisan Hosting</h1></HashLink>              
                 </div>
                 <div className="group flex flex-col items-center">
                     <button className="p-2 rounded-lg lg:hidden text-blue-900" onClick={handleClick}>
