@@ -3,6 +3,7 @@ import kws from '../images/clients/kws.png';
 import geps from '../images/clients/geps.png';
 import protergia from '../images/clients/protergia.png';
 import mitobyte from '../images/clients/mitobyte.svg';
+import shovel from '../images/clients/shovel.svg';
 
 const clientImage = {
     height: '10rem',
@@ -23,9 +24,12 @@ const Clients = () => {
                     </div>
 
                 <div className="p-16" data-aos="fade-in" data-aos-delay="600">
-                    <div className="grid sm:grid-cols-3 lg:grid-cols-3">
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-2">
                         <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6">
-                            <img src={mitobyte} alt="client" />                           
+                            <img src={mitobyte} alt="Mitobyte" />                           
+                        </div>
+                        <div style={clientImage} className= "overflow-hidden flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100 w-1/6 h-1/2">
+                            <img src={shovel} alt="Shovel Studio" />                           
                         </div>
 
                         {/* <div style={clientImage} className="overflow-hidden p-3 flex justify-center transition-all ease-in-out opacity-50 hover:opacity-100">
