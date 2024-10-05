@@ -24,8 +24,8 @@ const Modal = ({ show, onClose, title, content }) => {
 };
 
 const HostingProcess = () => {
-    // const [showModal, setShowModal] = useState(true);
-    // const [modalContent, setModalContent] = useState({ title: 'An error has occurred', content: 'This has been open at the wrong time. Please use the contact button in the footer to report this error' });
+    const [showModal, setShowModal] = useState(false);
+    const [modalContent, setModalContent] = useState({ title: '', content: '' });
 
     const handleOpenModal = (title, content) => {
         setModalContent({ title, content });
