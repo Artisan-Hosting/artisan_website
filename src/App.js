@@ -12,7 +12,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Cal from './pages/Schedule';
 import Process from './pages/Process';
-import Pricing from './pages/Pricing';
+// import Pricing from './pages/Pricing';
 
 // import DemoProduct from './pages/DemoProduct';
 
@@ -44,7 +44,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/process" element={<Process />} />
-            <Route path="/pricing" element={<Pricing />} />
+            {/* <Route path="/pricing" element={<Pricing />} /> */}
             <Route path="/schedule" element={<Cal />} />
             {/* <Route path="/get-demo" element={<DemoProduct />} />  */}
           </Routes>
