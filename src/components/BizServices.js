@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../images/web.svg'; 
+import img from '../images/web.svg';
 import img3 from '../images/hosting.svg';
 
 const Services = () => {
@@ -25,7 +25,8 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                 <h2 className="font-semibold my-4 text-2xl text-center">For Developers</h2>
                                 <p className="text-md font-medium">
-                                    Looking for a reliable push-to-deploy hosting solution? Artisan Hosting provides a developer-friendly experience similar to GitHub Pages. Push to a branch and see your project live within minutes, with full control over your environment.
+                                    Looking for a reliable push-to-deploy hosting solution? Artisan Hosting provides a developer-friendly experience similar to GitHub and Cloudflare pages.
+                                    As simple as push to a branch, take a sip of coffee, then see your changes live.
                                 </p>
                             </div>
                         </div>
@@ -36,7 +37,8 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                 <h2 className="font-semibold my-4 text-2xl text-center">For Small Businesses</h2>
                                 <p className="text-md font-medium">
-                                    Artisan Hosting offers turnkey hosting solutions with open-source applications, tailored specifically for businesses. No per-user fees—our pricing is based on your infrastructure needs.
+                                    Need a highly available application deployed. Need turnkey applications deployed "Nextcloud, Owncloud " and so on. Our infrastructure is hosted in the best datacenters in the milwaukee area. 
+                                    Need a highly available application without the hassle of managing infrastructure? Whether it’s turnkey solutions like Nextcloud or custom deployments, Artisan Hosting ensures your software is always available when you need it. Powered by Milwaukee’s top-tier datacenters, we handle the infrastructure—so you can focus on building.
                                 </p>
                             </div>
                         </div>

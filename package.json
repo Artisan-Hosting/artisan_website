@@ -52,10 +52,10 @@
   },
   "devServer": {
     "allowedHosts": [
-        "localhost",
-        "relay.artisanhosting.net",
-        "www.artisanhosting.net",  
-        "artisanhosting.net"  
+      "localhost",
+      "relay.artisanhosting.net",
+      "www.artisanhosting.net",
+      "artisanhosting.net"
     ]
   }
 }
