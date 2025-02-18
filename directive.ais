@@ -8,5 +8,5 @@
   # Not fully implemented the default is 22 with npm 10.8
   "nodejs_version": "",
   "directive_executed": true
-  # Adding this to test new gitmonitor
+  # Off to a string start....
 }
