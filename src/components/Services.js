@@ -36,7 +36,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                 <h2 className="font-semibold my-4 text-2xl text-center">For Small Businesses</h2>
                                 <p className="text-md font-medium">
-                                    Artisan Hosting offers turnkey hosting solutions with open-source applications, tailored specifically for businesses. No per-user fees—our pricing is based on your infrastructure needs.
+                                    Artisan Hosting partheners with the best datacenters in the region. Weather it's turnkey solutions like 'Owncloud Nextcloud limesurvey' or custom development enviornments. Artisan Hosting provides.
                                 </p>
                             </div>
                         </div>
