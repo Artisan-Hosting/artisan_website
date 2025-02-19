@@ -13,9 +13,9 @@ const clientImage = {
 
 const Clients = () => {
     return (
-        <div className="mt-8 bg-gray-100">
+        <div className="p-8 bg-gray-100"> 
             <section data-aos="fade-up">
-                <div className="my-4 py-4">
+                <div className=" py-4"> 
                         <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">Our Clients</h2>
                         <div className='flex justify-center'>
                             <div className='w-24 border-b-4 border-blue-900'></div>
