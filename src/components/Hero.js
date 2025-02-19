@@ -20,7 +20,7 @@ const Hero = () => {
                                 High-performance hosting with a personal touch.                                
                             
                                 </h1>
-                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">Artisan Hosting provides tailored, high-quality web and application hosting solutions with dedicated developer support, secure infrastructure, and personalized service for businesses of all sizes.</div>
+                            <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">Artisan Hosting provides tailored, high-quality web and application hosting solutions with dedicated developer support, secure infrastructure, and personalized service for businesses and developers of all sizes.</div>
                             <div className="mb-4 space-x-0 md:space-x-2 md:mb-8">
                                 <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0">
                                     Get started
