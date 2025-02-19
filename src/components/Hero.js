@@ -17,7 +17,7 @@ const Hero = () => {
                         <div className="lg:w-1/2 flex flex-col justify-center" data-aos="zoom-in" data-aos-delay="200">
                             <h1 className="mb-5 md:text-5xl text-3xl font-bold text-blue-900">
                             {/* We build digital solutions to help businesses scale */}
-                                High-performance hosting with a personal touch.                                
+                                Human centric, High-performance hosting.                                
                             
                                 </h1>
                             <div className="text-xl font-semibold tracking-tight mb-5 text-gray-500">Artisan Hosting provides tailored, high-quality web and application hosting solutions with dedicated developer support, secure infrastructure, and personalized service for businesses and developers of all sizes.</div>
