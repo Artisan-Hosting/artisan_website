@@ -93,7 +93,7 @@ const HostingProcess = () => {
                         {/* Step 4: Implementation */}
                         <div
                             className="bg-white rounded-lg shadow-2xl p-6 group cursor-pointer"
-                            onClick={() => handleOpenModal('Step 4: Implementation', 'We manage the entire implementation process—from migrations to setup—ensuring a seamless transition. Whether it\'s deploying your site on a highly available instance, optimizing caching with Cloudflare, configuring domains, or documenting every step, we handle it all for you.')}
+                            onClick={() => handleOpenModal('Step 4: Implementation', 'We manage the entire implementation process—from migrations to setup—ensuring a seamless transition. Whether it\'s deploying a highly available application with multiple instances, Optimizing website performance, configuring domains we can do it. All while documenting along the way.')}
                         >
                             <img alt="Implementation" className="h-24 mx-auto group-hover:scale-110 transition duration-500" src={imgHosting} />
                             <h3 className="font-semibold my-4 text-2xl text-center text-blue-900">Step 4: Implementation</h3>

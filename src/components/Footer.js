@@ -16,10 +16,9 @@ const Footer = () => {
                             <div className="box-border border-b-4 border-blue-900 p-8 bg-gray-200 text-gray-600 text-center rounded-lg xl:w-80 mx-auto">
                                 <h3 className="font-bold text-4xl mb-4">Artisan Hosting</h3>
                                 <div className='text-md font-medium text-gray-600'>
-                                    {/* <h5>A ramfield holdings company</h5> */}
+                                    {/* <h5>A Whitfield holdings company</h5> */}
                                     <p>Milwaukee,</p>
                                     <p>Wisconsin,</p>
-                                    {/* <p>Ogun State.</p> */}
                                 </div>
                             </div>
                         </div>
@@ -37,6 +36,9 @@ const Footer = () => {
                                 <li className="mb-2">
                                     <HashLink to="/contact" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                                 </li>
+                                <li className="mb-2">
+                                    <HashLink to="/contact" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Legal</HashLink>
+                                </li>
                             </ul>
                         </div>
 
@@ -46,12 +48,19 @@ const Footer = () => {
                             <ul className="text-md">
                                 <li className="mb-2">
                                     <Link to="#" className="text-[#013289] hover:text-gray-900">Opensource Things</Link>
+                                    {/* Link TO THE  GITHUB, need artisan_cli, Artisan_middleware, runner_template */}
                                 </li>
                                 <li className="mb-2">
                                     <Link to="#" className="text-[#013289] hover:text-gray-900">Work with us!</Link>
+                                    {/* Explain the embedding eng roles, one day */}
                                 </li>
                                 <li className="mb-2">
                                     <Link to="#" className="text-[#013289] hover:text-gray-900">Patch Notes</Link>
+                                    {/* Link to our documentation site */}
+                                </li>
+                                <li className="mb-2">
+                                    <Link to="#" className="text-[#013289] hover:text-gray-900">Email List</Link>
+                                    {/* MARKETING THING */}
                                 </li>
                             </ul>
                         </div>
