@@ -27,8 +27,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                 <h2 className="font-semibold my-4 text-2xl text-center">For Developers</h2>
                                 <p className="text-md font-medium">
-                                    For developers we offer a custom built push-to-deploy solution with individual branch tracking. Similar to Github and Cloudflare pages in function.
-                                    Push to a selected branch, take a small sip of coffee and watch how your project was seemlessly re-deployed.
+                                    For our developers, we offer a custom-built, in-house CI/CD system. A push-to-deploy style solution with individual branch tracking and workflow monitoring. Every change is captured and built, but only when you decide. Simply push to a branch, take a sip of coffee, and let Artisan Hosting handle the rest. By the time you’re back, your project is seamlessly redeployed—whether to a single instance or a million.
                                 </p>
                             </div>
                         </div>
@@ -39,7 +38,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={developer} />
                                 <h2 className="font-semibold my-4 text-2xl text-center">Web Developers and Studios</h2>
                                 <p className="text-md font-medium">
-                                    Artisan Hosting partners with the best datacenters in the region to keep your applications online and resilient. Need a high-availability website? A dedicated testing environment before pushing changes live? We provide the flexibility to develop the way your team works best. With Cloudflare’s CDN and expert management, your platform stays secure, stable, and always optimized.
+                                    Artisan Hosting partners with the region’s top datacenters to keep your applications online and resilient. Need a highly available site? Done. A separate staging environment for final reviews before going live? Done. Whether you just need powerful VMs or want to hand us your repo and let us handle the rest, we ensure your project is always secure, stable, and fast.
                                 </p>
                             </div>
                         </div>
@@ -50,7 +49,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                 <h2 className="font-semibold my-4 text-2xl text-center">For Businesses</h2>
                                 <p className="text-md font-medium">
-                                    Artisan Hosting helps businesses modernize their infrastructure with cost-effective solutions. Whether you need to migrate an existing website, port internal services, or deploy custom applications, we handle the heavy lifting. Our expert-managed platform ensures security, scalability, and seamless performance—so you can focus on running your business, not your servers.
+                                    Artisan Hosting helps businesses modernize their infrastructure with cost-effective solutions. Whether you need to migrate an existing website, port internal services, or deploy custom applications, we handle the heavy lifting. Our expert-managed platform ensures security, scalability, and seamless performance. Let Artisan Hosting focus on your servers so you can focus on running your business.
                                 </p>
                             </div>
                         </div>
